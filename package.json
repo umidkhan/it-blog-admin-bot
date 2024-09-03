@@ -8,7 +8,7 @@
   },
   "keywords": [],
   "author": "Umidxon",
-  "license": "ISC",
+  "license": "MIT",
   "description": "Admin bot for my personal IT-blog",
   "dependencies": {
     "axios": "^1.7.7",
