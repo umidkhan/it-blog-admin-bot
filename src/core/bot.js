@@ -15,7 +15,7 @@ bot.start(async (ctx) => {
       );
     } else {
       ctx.reply(
-        `Assalomu alaykum <a href="tg://user?id=${ctx.from.id}" >${ctx.from.name}</a>\n<b>Botga xush kelibsiz, ammo bot sizga tegishli emas!</b>`,
+        `Assalomu alaykum <a href="tg://user?id=${ctx.from.id}" >${ctx.from.first_name}</a>\n<b>Botga xush kelibsiz, ammo bot sizga tegishli emas!</b>`,
         { parse_mode: "HTML" }
       );
     }
